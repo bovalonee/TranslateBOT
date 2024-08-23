@@ -1,4 +1,4 @@
-# 29 Translate Bahasa Telegram Bot
+# 29 Translate Telegram Bot
 
 Welcome to the 29 Translate Bahasa Telegram Bot repository! This bot is designed to provide fast and accurate translation services across 29 languages, making it ideal for students, travelers, and anyone in need of linguistic assistance.
 
@@ -13,23 +13,31 @@ Welcome to the 29 Translate Bahasa Telegram Bot repository! This bot is designed
 
 ### Prerequisites
 
+- VPS Ubuntu/Debian
 - Telegram account
 - Internet connection
 - API DeepL
 
 ### Installation
 
-1. Clone the repository:
+0. Install requirement library
+   ```bash
+   apt install npm
+   ```
+   ```bash
+   npm install node-telegram-bot-api axios
+   ```
+   
+2. Clone the repository:
    ```bash
    git clone https://github.com/bovalonee/TranslateBOT.git
    ```
    
-2. Navigate to the project directory:
+3. Navigate to the project directory:
    ```bash
    cd TranslateBOT
    ```
-
-3. 
+   
 4. Set up your configuration settings by updating the `config.py` file with your Telegram API keys and necessary details.
    ```bash
    nano config.js
@@ -59,7 +67,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgements
 
-- Thanks to all contributors and translators.
 - Inspired by the need for seamless cross-language communication.
 
 Feel free to explore the repository, try out the bot, and contribute to its development. We hope this tool proves invaluable in breaking down language barriers!
